@@ -18,12 +18,12 @@ Ext.define('MyApp.view.notify.Notifications', {
         },
 
         columns: [{
-            xtype: 'datecolumn',
-            text: 'Date',
-            dataIndex: 'date'
+            text: 'First Name',
+            dataIndex: 'first_name',
+            flex : 1
         }, {
-            text: 'Description',
-            dataIndex: 'description',
+            text: 'Last Name',
+            dataIndex: 'last_name',
             flex: 1
         }]
     }]
